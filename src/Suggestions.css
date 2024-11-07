@@ -1,0 +1,57 @@
+.suggestions {
+    width: 250px;
+    /* background-color: #fff; */
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+    padding: 15px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    height: 90%;
+    overflow-y: auto;
+  }
+  
+  .suggestions h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .suggestion {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .suggestion-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .suggestion-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .suggestion-username {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .suggestion-button {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .suggestion-button:hover {
+    background-color: #007bb5;
+  }
+  

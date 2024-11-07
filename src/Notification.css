@@ -1,0 +1,65 @@
+
+
+   .notification-page {
+    margin-left: 220px; 
+    padding: 20px;
+    background-color: #fafafa;
+    max-width: 800px;
+    margin-right: 20px;
+  }
+  
+  .notification-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .notification-header h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .notification-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .notification-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .notification-details {
+    flex-grow: 1;
+  }
+  
+  .notification-details p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+  }
+  
+ 
+  .notification-post-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: auto; 
+  }
+  
+  .notification-item:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+  

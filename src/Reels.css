@@ -1,0 +1,89 @@
+.reels-page {
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+    padding-top: 20px;
+  }
+  
+  .reels-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    width: 100%;
+    overflow-y: auto; 
+  }
+  
+  .reel {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .reel-video {
+    width: 100%;
+    height: auto; 
+    aspect-ratio: 9 / 16;  
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .reel-controls {
+    position: absolute;
+    top: 50%;
+    right: 15px;  
+    transform: translateY(-50%); 
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    z-index: 10; 
+  }
+  
+  .reel-btn {
+    background: transparent;
+    border: none;
+    font-size: 28px; 
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .reel-btn:hover {
+    color: #0095f6; 
+  }
+  
+  .reel-btn:focus {
+    outline: none;
+  }
+  
+
+  .like-btn {
+    color: #fff;
+  }
+  
+  .comment-btn {
+    color: #fff;
+  }
+  
+  .share-btn {
+    color: #fff;
+  }
+  
+  .save-btn {
+    color: #fff; 
+  }
+  
+  
+  .reel-btn {
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .reel-btn:active {
+    transform: scale(0.9); 
+  }
+  
+  .reel-controls button {
+    margin-right: 0;
+  }
+  
