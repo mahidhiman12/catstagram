@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/catstagram/static/css/main.991ee00a.css",
+    "main.js": "/catstagram/static/js/main.2ae2b794.js",
+    "static/media/catvid2.mp4": "/catstagram/static/media/catvid2.6812cf04cab1faf68ca0.mp4",
+    "static/media/catvid3.mp4": "/catstagram/static/media/catvid3.6711276c6e6e48b6019f.mp4",
+    "static/media/catvid.mp4": "/catstagram/static/media/catvid.f9ce8875f88870b88d58.mp4",
+    "static/media/cat5.jpg": "/catstagram/static/media/cat5.2c65dda842f8e18284da.jpg",
+    "static/media/cat3.jpg": "/catstagram/static/media/cat3.15688c2a0d7c6ce4d42d.jpg",
+    "static/media/cat2.jpg": "/catstagram/static/media/cat2.91ea19fc2b8ba8f20968.jpg",
+    "static/media/cat7.jpg": "/catstagram/static/media/cat7.ba3494d35b34f38d2030.jpg",
+    "static/media/cat4.jpg": "/catstagram/static/media/cat4.63b83ae376a71a9d5af0.jpg",
+    "static/media/cat.jpg": "/catstagram/static/media/cat.e924ebd62ce4c46a4ce2.jpg",
+    "static/media/cat6.jpg": "/catstagram/static/media/cat6.d908309fdba895374e67.jpg",
+    "index.html": "/catstagram/index.html",
+    "main.991ee00a.css.map": "/catstagram/static/css/main.991ee00a.css.map",
+    "main.2ae2b794.js.map": "/catstagram/static/js/main.2ae2b794.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.991ee00a.css",
+    "static/js/main.2ae2b794.js"
+  ]
+}
